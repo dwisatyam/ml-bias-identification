@@ -1,6 +1,13 @@
-# bias-identification
+# ml-bias-identification
 This repository has bias lexicons, corpus and scripts to generate augmented test-sets based on the original test data to evaluate the counter-factual fairness of NU models.
 
+## Repo structure
+```
+└───src
+    └───resources
+        ├───corpus
+        └───lexicons
+```
 ## References
 Below is an exhaustive list of the resources that I used to create/curate corpus and bias lexicons.
 
