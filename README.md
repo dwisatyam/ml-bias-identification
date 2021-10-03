@@ -3,6 +3,61 @@ This repository has bias lexicons, corpus and scripts to generate augmented test
 
 ## Repo structure
 ```
+├───bin
+│   ├───notebooks
+│   ├───templates
+│   │   ├───beauty
+│   │   ├───color
+│   │   ├───disablity
+│   │   ├───education
+│   │   ├───gender
+│   │   ├───height
+│   │   ├───marital-status
+│   │   ├───nationality
+│   │   ├───occupation
+│   │   ├───race
+│   │   ├───religion
+│   │   ├───sexual-identity
+│   │   └───socio-economic-status
+│   └───test_sets
+│       ├───beauty
+│       │   └───individual
+│       ├───color
+│       │   └───individual
+│       ├───disablity
+│       │   └───individual
+│       ├───education
+│       │   └───individual
+│       ├───gender
+│       │   └───individual
+│       ├───height
+│       │   └───individual
+│       ├───marital-status
+│       │   └───individual
+│       ├───nationality
+│       │   └───individual
+│       ├───occupation
+│       │   └───individual
+│       ├───race
+│       │   └───individual
+│       ├───religion
+│       │   └───individual
+│       ├───sexual-identity
+│       │   └───individual
+│       └───socio-economic-status
+│           └───individual
+├───experiments
+│   ├───plots
+│   │   ├───classification_gap
+│   │   │   ├───group_fairness
+│   │   │   └───individual_fairness
+│   │   └───classification_tolerance
+│   │       ├───group_fairness
+│   │       └───individual_fairness
+│   └───results
+│       └───classification_tolerance
+│           ├───group_fairness
+│           └───individual_fairness
 └───src
     └───resources
         ├───corpus
